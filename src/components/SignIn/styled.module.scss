@@ -1,0 +1,9 @@
+@import 'scss';
+
+.container {
+	margin-top: 40px;
+
+	.inputs {
+		@include login-inputs-wrapper;
+	}
+}
