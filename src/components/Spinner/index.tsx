@@ -1,7 +1,7 @@
 import cn from 'classnames';
 
 import { SpinnerProps } from './index.props';
-import data from './data.json';
+import data from '../../mock/resourcesFromRoulette.json';
 
 import styled from './styled.module.scss';
 
