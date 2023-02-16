@@ -1,0 +1,70 @@
+.container {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background-color: rgb(184, 182, 91);
+	border-radius: 50%;
+
+	.item {
+		width: 60px;
+		height: 60px;
+		background-color: rgb(139, 210, 223);
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+	}
+
+	.active {
+		background-color: rgb(167, 142, 142);
+	}
+
+	.a {
+		position: absolute;
+		top: 0;
+		left: 170px;
+	}
+
+	.b {
+		position: absolute;
+		top: 50px;
+		left: 290px;
+	}
+
+	.c {
+		position: absolute;
+		top: 170px;
+		left: 340px;
+	}
+
+	.d {
+		position: absolute;
+		top: 290px;
+		left: 290px;
+	}
+
+	.e {
+		position: absolute;
+		top: 340px;
+		left: 170px;
+	}
+
+	.f {
+		position: absolute;
+		top: 290px;
+		left: 50px;
+	}
+
+	.g {
+		position: absolute;
+		top: 170px;
+		left: 0;
+	}
+
+	.h {
+		position: absolute;
+		top: 50px;
+		left: 50px;
+	}
+}

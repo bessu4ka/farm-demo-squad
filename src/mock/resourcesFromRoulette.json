@@ -1,0 +1,10 @@
+[
+	{ "style": "a", "order": 1 },
+	{ "style": "b", "order": 2 },
+	{ "style": "c", "order": 3 },
+	{ "style": "d", "order": 4 },
+	{ "style": "e", "order": 5 },
+	{ "style": "f", "order": 6 },
+	{ "style": "g", "order": 7 },
+	{ "style": "h", "order": 8 }
+]
