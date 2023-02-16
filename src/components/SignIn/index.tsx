@@ -3,6 +3,7 @@ import { Formik, Form } from 'formik';
 
 import { Button, Input } from 'components';
 import { LoginSchema } from 'utils';
+import { SignInUserFieldsTypes } from 'types';
 import data from 'mock/login.json';
 
 import styled from './styled.module.scss';
@@ -12,7 +13,7 @@ const initialValues = {
 	password: '',
 };
 
-function loggedFieldsData(values: any): void {
+function loggedFieldsData(values: SignInUserFieldsTypes): void {
 	console.log(values);
 }
 

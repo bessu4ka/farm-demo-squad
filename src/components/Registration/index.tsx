@@ -3,6 +3,7 @@ import { Formik, Form } from 'formik';
 
 import { Button, Input } from 'components';
 import { registrationSchema } from 'utils';
+import { RegistrationUserFieldsTypes } from 'types';
 import data from 'mock/registration.json';
 
 import styled from './styled.module.scss';
@@ -15,7 +16,7 @@ const initialValues = {
 	phone_number: '',
 };
 
-function loggedFieldsData(values: any): void {
+function loggedFieldsData(values: RegistrationUserFieldsTypes): void {
 	console.log(values);
 }
 
