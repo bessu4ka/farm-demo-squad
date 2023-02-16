@@ -1,0 +1,7 @@
+[
+	{ "placeholder": "nickname", "name": "nickname", "type": "text" },
+	{ "placeholder": "email", "name": "email", "type": "email" },
+	{ "placeholder": "password", "name": "password", "type": "password" },
+	{ "placeholder": "confirm password", "name": "confirm_password", "type": "password" },
+	{ "placeholder": "phone number", "name": "phone_number", "type": "text" }
+]

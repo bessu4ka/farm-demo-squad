@@ -1,0 +1,10 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.changeMethod {
+		cursor: pointer;
+		color: rgb(6, 192, 46);
+	}
+}
