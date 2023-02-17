@@ -7,3 +7,4 @@ export * from './RouletteTimer';
 export * from './Input';
 export * from './Registration';
 export * from './SignIn';
+export * from './TextError';
